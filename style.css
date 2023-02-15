@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.bg-img{
+    background-image: url("image_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.navbar{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+
+}
+.navbar a{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 30px;
+    text-decoration: none;
+    
+}
+.after-scroll-nav{
+    background-color: blue;
+}
